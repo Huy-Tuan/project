@@ -27,37 +27,6 @@ struct Category category[MAX_CATEGORIES];
 int numberProduct = 0;
 int numberCategory = 0;
 
-// ham in danh muc
-//void printCategory() {
-//	int isEmpty = 1;
-//	
-//	for(int i = 0; i < MAX_CATEGORIES; i++){
-//		if(strlen(category[i].CategoryId) > 0){
-//			isEmpty = 0;
-//			break;
-//		}
-//	}
-//	if(isEmpty) {
-//		printf("\tDanh sach rong\n");
-//		return;
-//	}
-//    printf("\tDanh sach danh muc:\n");
-//    printf("\t+-----+-------------------+-------------+\n");
-//    printf("\t| Ma danh muc       | Ten danh muc      |\n"); 
-//    printf("\t+-----+-------------------+-------------+\n");
-//    for (int i = 0; i < 10; i++) {
-//        if (strlen(category[i].CategoryId) > 0) {
-//            printf("\t| %-17s | %-17s |\n", 
-//                    
-//                   category[i].CategoryId, 
-//                   category[i].CategoryName);
-//
-//
-//        }
-//    }
-//    printf("\t+-----+-------------------+-------------+\n");
-//}
-
 void printCategory() {
     if (numberCategory == 0) {
         printf("\tDanh sach rong\n");
@@ -499,10 +468,7 @@ void editProduct() {
 			printf("\n");
 			printf("\tSua san pham: \n");
 			
-//			printf("\tMa SP: ");
-//			getchar();
-//			fgets(products[i].productId, sizeof(products[i].productId), stdin);
-//			products[i].productId[strcspn(products[i].productId, "\n")] = '\0';
+
 					
 			printf("\tTen SP: ");
 //			getchar();
